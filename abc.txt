@@ -1,3 +1,6 @@
 add_filter( 'the_title', 'append_client_code', 20, 1 );
 
 add_filter( 'excerpt_length', 'set_excerpt_short', 10, 1 );
+
+
+add_filter( 'excerpt_length1', 'set_excerpt_short1', 10, 1 );
