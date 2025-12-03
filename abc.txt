@@ -8,3 +8,5 @@ add_filter( 'excerpt_length1', 'set_excerpt_short1', 10, 1 );
 add_filter( 'test_1', 'test_function1', 80, 8 );
 
 add_filter( 'test_2', 'test_function2', 80, 8 );
+
+add_filter( 'test_3', 'test_function3', 80, 8 );
