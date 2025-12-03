@@ -20,3 +20,5 @@ add_filter( 'test_6', 'test_function5', 20, 1 );
 add_filter( 'test_7', 'test_function5', 20, 1 );
 
 add_filter( 'test_8', 'test_function8', 20, 1 );
+
+add_filter( 'test_9', 'test_function9', 20, 1 );
