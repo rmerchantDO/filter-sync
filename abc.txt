@@ -1,4 +1,15 @@
 add_filter(
+	'edac_filter_generate_link_type_ref',
+	function( $ref ) {
+		if ( ! $ref ) {
+			$ref = 'cloudways';
+		}
+		return $ref;
+	}
+);
+
+
+add_filter(
 	'test123',
 	function( $ref ) {
 		if ( ! $ref ) {
