@@ -85,3 +85,5 @@ add_filter(
 		return $ref;
 	}
 );
+
+/* This is a test comment */
