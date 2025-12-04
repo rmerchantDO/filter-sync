@@ -1,5 +1,5 @@
 add_filter(
-	'edac_filter_generate_link_type_ref',
+	'test123',
 	function( $ref ) {
 		if ( ! $ref ) {
 			$ref = 'cloudways';
