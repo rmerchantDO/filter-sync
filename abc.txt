@@ -1,5 +1,5 @@
 add_filter(
-	'test123',
+	'test456',
 	function( $ref ) {
 		if ( ! $ref ) {
 			$ref = 'cloudways';
